@@ -11,7 +11,7 @@ public class ToDo {
     
     	Task task = new HomeTask();
     	frame.add(task.getGuiComponent());
-    	
+    	System.out.println("Yo");
     	frame.setBounds(2100,100,400,400);
     	frame.setVisible(true);
     	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
